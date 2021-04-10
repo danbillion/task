@@ -1,0 +1,59 @@
+body, p{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    width: 20%;
+    margin-left: auto;
+}
+ a{
+    color: black;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav img{
+    height:20px ;
+}
+main{
+    width: 50%;
+    margin:9em auto;
+    text-align: center;
+}
+input{
+   width: 80%;
+   height: 40px;
+   border-radius: 20px;
+   border:1px solid rgb(170, 153, 153);
+
+}
+.press{
+    margin-top: 1em;
+}
+.press button{
+    border: none;
+}
+footer{
+    background-color: rgb(212, 208, 208);
+    
+}
+.footer-top{
+  padding: 1em;
+}
+.footer-bottom{
+    display:flex;
+    padding:1em;
+    justify-content:space-between;
+    border-top:1px solid ;
+  }
+  .left a{
+      margin-right: 1em;
+  }
+  .right a{
+      margin-right: 1em;
+  }
+  a:hover{
+    text-decoration: underline;
